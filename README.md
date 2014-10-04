@@ -1,25 +1,10 @@
-# Odin Framework #
+# Elementa Theme #
 
-[Ver essa documentação em Português do Brasil](https://github.com/wpbrasil/odin/blob/master/README-pt_BR.md)
-
-![Odin Framework](https://i.imgur.com/DdeMgUx.png)
-
-* [Website](http://wpod.in/)
-* [Demo](http://demo.wpod.in/)
-* [GitHub](https://github.com/wpbrasil/odin)
-* [WordPress Brasil Group on Facebook](https://www.facebook.com/groups/wordpress.brasil)
-
-## Project Description ##
-
-Welcome to Odin, a base-theme developed by [WordPress Brasil Group](https://www.facebook.com/groups/wordpress.brasil), to help on agile development of themes for WordPress.
+Odin based theme for elementa collaborative agency.
 
 ## Installation ##
 
 Send the folder "odin" to the default themes folder from WordPress `wp-content/themes` or send the zipball using the WordPress Theme Installer.
-
-## Documentation ##
-
-Informations about how-to use the classes and functions from Odin is on the [Official Wiki](https://github.com/wpbrasil/odin/wiki/)
 
 ## Plugins Support ##
 
@@ -28,22 +13,6 @@ Odin supports natively these plugins:
 * [WooCommerce](http://wordpress.org/extend/plugins/woocommerce/)
 * [Jigoshop](http://wordpress.org/extend/plugins/jigoshop/)
 * [JetPack](http://wordpress.org/extend/plugins/jetpack/) Infinite Scroll
-
-## References ##
-
-* [Bootstrap](http://getbootstrap.com/)
-* [Bootstrap Sass](https://github.com/twbs/bootstrap-sass)
-* [HTML5shiv](https://github.com/aFarkas/html5shiv)
-* [matchMedia() polyfill](https://github.com/paulirish/matchMedia.js/)
-* [Respond.js](https://github.com/scottjehl/Respond)
-* [Sass](http://sass-lang.com/)
-* [Compass](http://compass-style.org/)
-* [Grunt.js](http://gruntjs.com/)
-* [aq_resize](https://github.com/sy4mil/Aqua-Resizer)
-* [FitVids](https://github.com/davatron5000/FitVids.js)
-* [EditorConfig](http://editorconfig.org/)
-* [goqr.me](http://goqr.me/)
-* [Google Maps](https://developers.google.com/maps/)
 
 ## Bugs and Sugestions ##
 
@@ -61,7 +30,7 @@ More details about how to contribute and send Pull Requests in [GitHub Collabora
 
 ## Changelog ##
 
-[Changelog here!](https://github.com/wpbrasil/odin/blob/master/CHANGELOG.md)
+Changelog Soon
 
 ## Copyright and License ##
 
