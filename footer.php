@@ -12,10 +12,18 @@
 
 		</div><!-- #main -->
 
-		<footer id="footer" role="contentinfo">
-			<div class="site-info">
-				<span>&copy; <?php echo date( 'Y' ); ?> <a href="<?php echo home_url(); ?>"><?php bloginfo( 'name' ); ?></a> - <?php _e( 'All rights reserved', 'odin' ); ?> | <?php echo sprintf( __( 'Powered by the <a href="%s" rel="nofollow" target="_blank">Odin</a> forces and <a href="%s" rel="nofollow" target="_blank">WordPress</a>.', 'odin' ), 'http://wpod.in/', 'http://wordpress.org/' ); ?></span>
-			</div><!-- .site-info -->
+<footer id="footer" role="contentinfo">
+
+	<div class="col-md-8">
+		<div class="site-info">
+			<span>&copy; <?php echo date( 'Y' ); ?> <a href="<?php echo home_url(); ?>"><?php bloginfo( 'name' ); ?></a> | <?php echo sprintf( __( 'Desenvolvido com <a href="%s" rel="nofollow" target="_blank">Wordpress</a>.', 'odin' ), 'http://br.wordpress.org/' ); ?></span>
+		</div><!-- .site-info -->
+	</div>
+
+	<div class="col-md-4">
+
+	</div>
+			
 		</footer><!-- #footer -->
 	</div><!-- .container -->
 

@@ -29,6 +29,8 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
+<!-- Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Montserrat|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
 </head>
 
 <body <?php body_class(); ?>>

@@ -14,7 +14,8 @@ get_header(); ?>
 
 	<div id="primary" class="<?php echo odin_full_page_classes(); ?>">
 		<div id="content" class="site-content" role="main">
-
+	<p></p>
+	<div class="row">
 			<div class="col-md-6">
 					<span class="nos-vc">Nós</span>
 					<div class="descrevendo">
@@ -28,10 +29,14 @@ get_header(); ?>
 						Você também é parte do coletivo para uma rede de criatividade e inovação.
 					</div>
 			</div>
-			<p class="lead">
-				<a class="btn btn-lg btn-outline-inverse">Qual a sua necessidae?</a>
-			</p>
-
+	</div>
+	<p></p>
+	<div class="row">
+	<p></p>
+				<p>
+					<button type="button" class="btn btn-primary btn-lg btn-block">Qual a sua necessidade?</button>
+				</p>
+	</div>
 		</div><!-- #content -->
 	</div><!-- #primary -->
 
