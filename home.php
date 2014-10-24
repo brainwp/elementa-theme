@@ -14,7 +14,6 @@ get_header(); ?>
 
 	<div id="primary" class="<?php echo odin_full_page_classes(); ?>">
 		<div id="content" class="site-content" role="main">
-	<p></p>
 	<div class="row">
 			<div class="col-md-6">
 					<span class="nos-vc">Nós</span>
@@ -30,12 +29,11 @@ get_header(); ?>
 					</div>
 			</div>
 	</div>
-	<p></p>
 	<div class="row">
-	<p></p>
-				<p>
+	<div class="spacer-50"></div>
+				<div class="col-md-6 call-to-action">
 					<button type="button" class="btn btn-primary btn-lg btn-block">Qual a sua necessidade?</button>
-				</p>
+				</div>
 	</div>
 		</div><!-- #content -->
 	</div><!-- #primary -->

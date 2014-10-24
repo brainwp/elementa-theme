@@ -303,3 +303,21 @@ $projeto->set_arguments(
 
 }
 add_action( 'init', 'odin_projetos_cpt', 1 );
+
+
+/**
+ * Register widgetized area and update sidebar with default widgets.
+ */
+function elementa_theme_widgets_init() {
+
+	register_sidebar( array(
+		'name'          => __( 'Redes Sociais', 'casando_sem_grana_theme' ),
+		'id'            => 'redes-sociais-footer',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h1 class="social-title">',
+		'after_title'   => '</h1>',
+	) );
+}
+
+add_action( 'widgets_init', 'elementa_theme_widgets_init' );

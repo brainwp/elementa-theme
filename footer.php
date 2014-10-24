@@ -22,6 +22,16 @@
 
 	<div class="col-md-4">
 
+		<nav id="social-area">
+
+				<?php if ( ! dynamic_sidebar( 'redes-sociais-footer' ) ) : ?>
+					<?php if ( current_user_can( 'manage_options' ) ) {
+						echo "Verifique se o plugin Simple Social Icon está instalado, configurado e adicionado ao Widget Redes Sociais.";
+					} ?>
+				<?php endif; // end sidebar widget area ?>
+
+		</nav>
+
 	</div>
 			
 		</footer><!-- #footer -->
