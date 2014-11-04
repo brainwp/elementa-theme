@@ -8,6 +8,8 @@ Description: Elementa main stylesheet.
 body {
 	background: url("../images/bg-elementa-roxa.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
 	font-family: 'Open Sans', sans-serif;
+	color: #FFF;
+
 }
 
 h1.site-title {
@@ -109,9 +111,33 @@ h1, h2, h3, h4, h5, h6 {
 .site-info {
 	text-align: left;
 	color: #CCC;
+	margin-top: 15px;
 }
 
 .call-to-action {
 	width: 100%;
 	margin: 0 auto;
 }
+
+#comments {
+	display: none;
+}
+
+body.page-template-default div#content.site-content {
+	padding-left: 15px;
+}
+
+a {
+    color: #EA2099;
+
+}
+
+a:hover, a:focus {
+    color: #D61585;
+    text-decoration: none;
+}
+.simple-social-icons {
+	float: right;
+}
+
+

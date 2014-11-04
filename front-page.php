@@ -32,7 +32,7 @@ get_header(); ?>
 	<div class="row">
 	<div class="spacer-50"></div>
 				<div class="col-md-6 call-to-action">
-					<button type="button" class="btn btn-primary btn-lg btn-block">Qual a sua necessidade?</button>
+					<a href="<?php echo home_url('qual-a-sua-necessidade'); ?>"><button type="button" class="btn btn-primary btn-lg btn-block">Qual a sua necessidade?</button></a>
 				</div>
 	</div>
 		</div><!-- #content -->
